@@ -1,19 +1,16 @@
 import React from 'react';
-import { Link } from "react-router-dom"
-import NavBar from "../NavBar";
+import coverImage from '../../assets/cover/cover-image.jpg';
 
-function Header() {
+function Header(props) {
 
   return (
-    <header className="flex-row px-1">
-      <div className="logo">
-        <h1>
-        <Link to="/">Christian Flores</Link>
-        </h1>
-      </div>
-      <NavBar></NavBar>
+    <header className="flex-row space-between px-1">
+      <h1>Christian</h1>
+      <img src={coverImage} alt="wooden background"></img>
+      {props.children}
     </header>
   );
 }
 
 export default Header;
+

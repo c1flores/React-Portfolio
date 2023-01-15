@@ -1,7 +1,9 @@
 # React Portfolio
 
 ## Description
-Here is my portfolio to present my background and a few web-development projects I've worked on. 
+A React portfolio to showcase the different web development projects I've worked on. 
+
+## Why does a portfolio matter?
 
 ## Website Link
 [Insert Project Link]()
