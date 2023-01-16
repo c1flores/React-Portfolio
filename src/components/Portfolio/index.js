@@ -1,130 +1,55 @@
-import React from 'react';
-
-import PlaceHolderTwo from "";
-import PlaceHolderThree from "";
+import React, { useState } from 'react';
+import Project from "../Project";
 
 function Portfolio() {
+
+  // Replace links with deployed projects and GitHub repos
+  const [projects] = useState([
+    {
+      name: 'surf-report',
+      description: 'MERN Stack',
+      link: "https://github.com",
+      repo: "https://github.com"
+    },
+    {
+      name: 'pastel-puzzels',
+      description: 'MERN Stack',
+      link: "https://github.com",
+      repo: "https://github.com"
+    },
+    {
+      name: 'run-buddy',
+      description: 'HTML/CSS',
+      link: "https://github.com",
+      repo: "https://github.com"
+    },
+    {
+      name: 'led-wall',
+      description: 'Node/IoT',
+      link: "https://github.com",
+      repo: "https://github.com"
+    },
+    {
+      name: 'calculator',
+      description: 'React/JavaScript/CSS',
+      link: "https://github.com",
+      repo: "https://github.com"
+    },
+  ]);
+
   return (
-    <section class="portfolio">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img
-              src={PlaceHolder}
-              alt=""
-              class="p"
-            />
-            <div class="card-body">
-
-              <a href="" target="" rel="">
-                <button>GitHub</button>
-              </a>
-              <a href="" target="" rel="">
-                <button></button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <div class="card">
-            <img
-              src={PlaceHolder}
-              alt=""
-              class=""
-            />
-            <div class="card-body">
-              <a href="" target="" rel="">
-                <button>GitHub</button>
-              </a>
-              <a href="" target="" rel="">
-                <button>Website</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src={PlaceHolder}
-              alt="t"
-              class=""
-            />
-            <div class="card-body">
-              <a href="" target="" rel="">
-                <button>GitHub</button>
-              </a>
-              <a href="" target="" rel="">
-                <button>Website</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <div class="card">
-            <img
-              src={PlaceHolder}
-              alt=""
-              class=""
-            />
-            <div class="card-body">
-              <a href="" target="" rel="">
-                <button>GitHub</button>
-              </a>
-              <a href="n" target="" rel="">
-                <button>Website</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src={PlaceHolder}
-              alt="Coming Soon"
-              class=""
-            />
-            <div class="card-body">
-              <a href="" target="" rel="">
-                <button>GitHub</button>
-              </a>
-              <a href="" target="" rel="">
-                <button>Website</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src={PlaceHolder}
-              alt=""
-              class=""
-            />
-            <div class="card-body">
-              <a href="" target="" rel="">
-                <button>GitHub</button>
-              </a>
-              <a href="" target="" rel="">
-                <button>Website</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-
+    <div>
+      <div className="flex-row">
+        {projects.map((project, idx) => (
+          <Project
+            project={project}
+            key={"project" + idx}
+          />
+        ))}
       </div>
-    </section>
-
-
+    </div>
   );
-}
+};
 
 export default Portfolio;
+
