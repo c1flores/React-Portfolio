@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaGithub, FaLinkedin, SiGoodreads} from "react-icons/fa";
+import React from "react";
+import { FaGithub, FaLinkedin, SiGoodreads } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -11,12 +11,18 @@ function Footer() {
               <FaGithub />
             </li>
           </a>
-          <a href="https://www.linkedin.com/in/christian-flores-972551178/" target="blank">
+          <a
+            href="https://www.linkedin.com/in/christian-flores-972551178/"
+            target="blank"
+          >
             <li>
               <FaLinkedin />
             </li>
           </a>
-          <a href="https://www.goodreads.com/review/list/156639775?ref=nav_mybooks" target="blank">
+          <a
+            href="https://www.goodreads.com/review/list/156639775?ref=nav_mybooks"
+            target="blank"
+          >
             <li>
               <SiGoodreads />
             </li>
@@ -25,6 +31,6 @@ function Footer() {
       </footer>
     </div>
   );
-};
+}
 
 export default Footer;
