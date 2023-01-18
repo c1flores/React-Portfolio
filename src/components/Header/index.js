@@ -1,6 +1,5 @@
 import React from "react";
-import coverImage from "../../assets/cover/cover-image.jpg";
-
+import coverImage from "../../assets/cover/cover.jpg"
 function Header(props) {
   return (
     <header className="flex-row space-between px-1">

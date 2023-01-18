@@ -5,34 +5,22 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: "surf-report",
+      name: "Deja-Brew",
       description: "MERN Stack",
       link: "https://github.com",
-      repo: "https://github.com",
+      repo: "https://github.com/c1flores/Deja-Brew",
     },
     {
-      name: "pastel-puzzels",
-      description: "MERN Stack",
-      link: "https://github.com",
-      repo: "https://github.com",
+      name: "Dinner-Spinner",
+      description: "JavaScript/Node/Express/SQL/RESTful API",
+      link: "https://dinner-spinnerrr.herokuapp.com/",
+      repo: "https://github.com/c1flores/Dinner-Spinner",
     },
     {
-      name: "run-buddy",
-      description: "HTML/CSS",
-      link: "https://github.com",
-      repo: "https://github.com",
-    },
-    {
-      name: "led-wall",
-      description: "Node/IoT",
-      link: "https://github.com",
-      repo: "https://github.com",
-    },
-    {
-      name: "calculator",
-      description: "React/JavaScript/CSS",
-      link: "https://github.com",
-      repo: "https://github.com",
+      name: "Bottoms-Up",
+      description: "HTML/CSS/Bootstrap/Server-Side API",
+      link: "https://leinadzz.github.io/Bottoms-Up-API/",
+      repo: "https://github.com/c1flores/Bottoms-Up-API",
     },
   ]);
 

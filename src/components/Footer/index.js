@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, SiGoodreads } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGoodreads } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -24,7 +24,7 @@ function Footer() {
             target="blank"
           >
             <li>
-              <SiGoodreads />
+              <FaGoodreads />
             </li>
           </a>
         </ul>
