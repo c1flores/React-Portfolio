@@ -35,7 +35,7 @@ Moreover, a portfolio website provides helpful talking points at the interview p
 </br>
 
 ## Screen Capture
-![](https://github.com/c1flores/React-Portfolio/blob/main/src/assets/small/walkthrough.gif)
+![](https://github.com/c1flores/React-Portfolio/blob/main/src/assets/screen%20capture/Walkthrough.gif)
 
 ## Live Application
 [Link](https://c1flores.github.io/React-Portfolio/)
