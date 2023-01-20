@@ -3,9 +3,8 @@
 
 <!-- omit in toc -->
 ## Table of Contents
-
 - [Overview](#overview)
-- [Why does a portfolio matter?](#why-does-a-portfolio-matter)
+- [Why does a Portfolio Matter?](#why-does-a-portfolio-matter)
 - [Technologies](#technologies)
 - [Screen Capture](#screen-capture)
 - [Live Application](#live-application)
@@ -14,7 +13,7 @@
 ## Overview
 A React portfolio to showcase my background and different web development projects I've worked on. 
 
-## Why does a portfolio matter?
+## Why does a Portfolio Matter?
 Before the technical screens, take home assignments, algorithm problems on the whiteboard, and, finally, the wonderful call with your first job offer, you usually have to land an introductory call with a hiring manager. Having a web developer portfolio website is essential to showcase your quality and versatility that can lead you to that first call. 
 
 Moreover, a portfolio website provides helpful talking points at the interview panel. Beyond the job-search domain, a portfolio is a craft of self exploration. You design elements and write about who you are and what you like and more importantly, it lends itself as an opportunity to demonstrate your commitment to learning. 
@@ -36,10 +35,10 @@ Moreover, a portfolio website provides helpful talking points at the interview p
 </br>
 
 ## Screen Capture
-[Insert screenshot here]()
+![Insert screenshot here]()
 
 ## Live Application
-[Link]()
+[Link](https://c1flores.github.io/React-Portfolio/)
 
 ## Contact
 Christian Flores is a student of the Coding Bootcamp with the University of California, Berkeley. To see more of his work visit his [GitHub Profile](https://github.com/c1flores) or reach out via [Email](mailto:c1flores@ucsd.edu)
