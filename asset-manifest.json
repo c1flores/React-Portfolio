@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.bebac8aa.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.d3e8e034.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.d3e8e034.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.da4af42e.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.da4af42e.js.map",
+    "static/js/2.6155d750.chunk.js": "/React-Portfolio/static/js/2.6155d750.chunk.js",
+    "static/js/2.6155d750.chunk.js.map": "/React-Portfolio/static/js/2.6155d750.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.bebac8aa.chunk.css.map": "/React-Portfolio/static/css/main.bebac8aa.chunk.css.map",
+    "static/js/2.6155d750.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.6155d750.chunk.js.LICENSE.txt",
+    "static/media/Bottoms-Up.jpg": "/React-Portfolio/static/media/Bottoms-Up.b608ba69.jpg",
+    "static/media/Coding-Assessment.jpg": "/React-Portfolio/static/media/Coding-Assessment.f6abd228.jpg",
+    "static/media/Deja-Brew.jpg": "/React-Portfolio/static/media/Deja-Brew.dffcc765.jpg",
+    "static/media/Dinner-Spinner.jpg": "/React-Portfolio/static/media/Dinner-Spinner.1f501d2b.jpg",
+    "static/media/Personal-Pic.7e287395.png": "/React-Portfolio/static/media/Personal-Pic.7e287395.png",
+    "static/media/Tech-Blog.jpg": "/React-Portfolio/static/media/Tech-Blog.9a3af063.jpg",
+    "static/media/Weather-Dashboard.jpg": "/React-Portfolio/static/media/Weather-Dashboard.f29cec03.jpg",
+    "static/media/cover.6cce405c.jpg": "/React-Portfolio/static/media/cover.6cce405c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da4af42e.js",
+    "static/js/2.6155d750.chunk.js",
+    "static/css/main.bebac8aa.chunk.css",
+    "static/js/main.d3e8e034.chunk.js"
+  ]
+}
