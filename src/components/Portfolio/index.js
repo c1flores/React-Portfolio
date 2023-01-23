@@ -7,7 +7,7 @@ function Portfolio() {
     {
       name: "Deja-Brew",
       description: "MERN Stack",
-      link: "Soon-To-Be-Posted-On-Heroku",
+      link: "https://dejaabrew.herokuapp.com/",
       repo: "https://github.com/c1flores/Deja-Brew",
     },
     {
